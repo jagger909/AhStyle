@@ -9,4 +9,3 @@ Pillow==5.1.0
 psycopg2==2.7.4
 pytz==2018.4
 whitenoise==4.0b4
-python_version == 3.6
