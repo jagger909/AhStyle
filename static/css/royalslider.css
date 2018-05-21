@@ -262,7 +262,7 @@ img.rsImg.full-visible {
     height: 100%;
     display: block;
     z-index: 20;
-    background: url(blank.gif);
+    background: url(../images/logo.png);
 }
 
 .bContainer {
