@@ -1,0 +1,43 @@
+{% extends "main.html" %}
+{% load thumbnail %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block main %}
+
+    {% include 'modules/slider.html' %}
+    <!--************************************
+        Main Start
+    *************************************-->
+    <main id="tg-main" class="tg-main tg-haslayout">
+
+        {% include 'modules/creativeagency.html' %}
+        {% include 'modules/portfolio.html' %}
+        {% include 'modules/services.html' %}
+        {% include 'modules/maingoal.html' %}
+        {% include 'modules/creativeteam.html' %}
+        {% include 'modules/clientfeedback.html' %}
+        {% include 'modules/newsupdate.html' %}
+
+    </main>
+    <!--************************************
+        Main End
+    *************************************-->
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

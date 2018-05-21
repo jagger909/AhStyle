@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block additional_css %}
+    {#<link type="text/css" href="{% static "main.css" %}" rel="stylesheet">#}
+{% endblock %}
+
+{% block content %}
+
+    {% include 'main/loader.html' %}
+    <!--************************************
+			Wrapper Start
+	*************************************-->
+    <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+
+        {% include 'main/header.html' %}
+        <div class="tg-pushpage">
+
+            {% block main %}
+            {% endblock %}
+
+        </div>
+        {% include 'main/footer.html' %}
+    </div>
+    <!--************************************
+            Wrapper End
+    *************************************-->
+
+
+{% endblock %}
+
+
+
+
+
